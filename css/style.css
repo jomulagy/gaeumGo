@@ -1,21 +1,53 @@
-.playButton{
-    height : 20rem;
-    width : 50rem;
-    margin-top : 10%;
-    margin-left : 10%;
-    font-size: 5rem;
-    background-color:#FF92B1;
+html,body{
+    height:100%;
+    background-color: #FFD1DA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-#buttonWrap{
-    margin-top: 10%;
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100vh;
 }
 
+.btn {
+    height:10vh;
+    width: 100%; /* 버튼 가로 길이 100%로 설정 */
+    margin-bottom: 5vh;
+    font-size:5vh;
+    font-family: 'Dongle', sans-serif;
+    color : white;
+    background-color: #FBA1B7;
+    border-radius: 39px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.clicked {
+    color: #FF2171; /* 클릭시 텍스트 색상 변경 */
+}
+.btn:hover{
+    color: white;
+}
 #title{
-    font-size : 8rem;
-    margin-left: 25%;
-    margin-top: 5%;
+    font-size : 20rem;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    text-align: center;
+    margin-top:10%
 }
-html{
-    background-color: #FFBBC6;
+.footer{
+    font-size: 3vh;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    text-align: center;
+    margin-bottom: 1vh;
 }
