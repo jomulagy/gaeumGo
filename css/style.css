@@ -1,0 +1,21 @@
+.playButton{
+    height : 20rem;
+    width : 50rem;
+    margin-top : 10%;
+    margin-left : 10%;
+    font-size: 5rem;
+    background-color:#FF92B1;
+}
+
+#buttonWrap{
+    margin-top: 10%;
+}
+
+#title{
+    font-size : 8rem;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+html{
+    background-color: #FFBBC6;
+}

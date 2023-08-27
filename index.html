@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>가은GO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id = 'title'>가은 GO</h1>
+    <div id = 'buttonWrap'>
+        <button id = "hi" class="playButton">안                            녕</button>
+        <button id = "shit" class="playButton">쉿</button>
+        <button id = "sitDown" class="playButton">자리에 앉아</button>
+    </div>
+    
+    <script>
+        document.getElementById('hi').addEventListener('click', function() {
+            var audioUrl = 'mp3/안녕.mp3';
+            
+            var audioPlayer = new Audio(audioUrl);
+            audioPlayer.play();
+        });
+        document.getElementById('shit').addEventListener('click', function() {
+            var audioUrl = 'mp3/쉿.mp3';
+            
+            var audioPlayer = new Audio(audioUrl);
+            audioPlayer.play();
+        });
+        document.getElementById('sitDown').addEventListener('click', function() {
+            var audioUrl = 'mp3/자리에앉아.mp3';
+            
+            var audioPlayer = new Audio(audioUrl);
+            audioPlayer.play();
+        });
+    </script>
+</body>
+</html>
